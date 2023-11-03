@@ -21,6 +21,14 @@
             padding: 40px 0;
             text-align: center;
         }
+        .header-box {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px; /* Optional: for rounded corners */
+        }
         header h1 {
             margin: 0;
         }
@@ -69,8 +77,12 @@
 </head>
 <body>
     <header>
-        <h1>Lorenzo Cavallo</h1>
-        <p>PhD student in Astronomy - Università degli Studi di Padova</p>
+        <div class="header-box">
+            <h1>Lorenzo Cavallo</h1>
+        </div>
+        <div class="header-box">
+            <p>PhD student in Astronomy - Università degli Studi di Padova</p>
+        </div>
     </header>
 
     <nav>
