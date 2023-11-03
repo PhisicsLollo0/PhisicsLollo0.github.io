@@ -4,48 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Researcher's Name - Academic Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #e8491d;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 15px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #333333;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        #contact form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Lorenzo Cavallo</h1>
-        <p>PhD Student at Università degli Studi di Padova</p>
+        <h1>Dr. Alex Rivera</h1>
+        <p>Leading Researcher in Quantum Computing - Rivera University</p>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
     </nav>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a postdoctoral researcher at the Department of Computer Science at XYZ University. My research interests include artificial intelligence, machine learning, and data science.</p>
+        <p>I am a leading researcher in quantum computing with a passion for developing scalable quantum algorithms. With over a decade of experience in the field, my work has contributed to significant advancements in quantum error correction and quantum cryptography.</p>
     </section>
 
     <section id="research">
-        <h2>Research</h2>
-        <p>Here's an overview of my current research projects and past work. [Describe research projects here]</p>
+        <h2>Research Interests</h2>
+        <p>My primary research interests include quantum algorithm scalability, quantum machine learning, and secure quantum communication networks. I am currently exploring the intersection of quantum computing and artificial intelligence to pioneer the next generation of AI applications.</p>
     </section>
 
     <section id="publications">
-        <h2>Publications</h2>
+        <h2>Selected Publications</h2>
         <ul>
-            <li>Doe, J., & Smith, A. (2023). Article Title. Journal Name, Volume(Issue), Pages.</li>
+            <li>Rivera, A., & Lee, C. (2023). Efficient Quantum Algorithms for Machine Learning. Quantum Journal, 15(2), 34-56.</li>
             <!-- Add more publications here -->
         </ul>
     </section>
 
+    <section id="gallery">
+        <h2>Research Image Gallery</h2>
+        <div class="gallery">
+            <!-- Images of research, labs, conferences, etc. -->
+            <img src="lab-photo.jpg" alt="Lab Work">
+            <img src="conference-presentation.jpg" alt="Conference Presentation">
+            <img src="research-poster.jpg" alt="Research Poster">
+            <!-- Add more images here -->
+        </div>
+    </section>
+
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: jane.doe@example.com</p>
-        <p>Phone: (123) 456-7890</p>
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2023 Dr. Jane Doe</p>
+        <p>&copy; 2023 Dr. Alex Rivera</p>
     </footer>
 </body>
 </html>
