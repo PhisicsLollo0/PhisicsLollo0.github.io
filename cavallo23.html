@@ -40,6 +40,22 @@
             padding-top: 20px;
             margin-top: 20px;
         }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
     </style>
 </head>
 <body>
@@ -55,5 +71,27 @@
            Download README
         </a>
     </div>
+
+<table>
+        <tr>
+            <th>Column Name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Cluster_ID</td>
+            <td>Unique identifier for the cluster</td>
+        </tr>
+        <tr>
+            <td>RA</td>
+            <td>Right Ascension of the cluster center</td>
+        </tr>
+        <tr>
+            <td>Dec</td>
+            <td>Declination of the cluster center</td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </table>
+
+
 </body>
 </html>
