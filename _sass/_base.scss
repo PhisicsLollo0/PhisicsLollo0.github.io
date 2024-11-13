@@ -23,6 +23,23 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+.divider {
+  margin: 20px 0; /* Space between blocks */
+  border-top: 2px solid #000000; /* Optional line */
+}
+
+.custom-font {
+  font-size: 20px; /* Adjust to your desired size */
+}
+
+.custom-font-title {
+  font-size: 50px; /* Adjust to your desired size */
+}
+
+.custom-font-subtitle {
+  font-size: 25px; /* Adjust to your desired size */
+}
+
 table {
 
   td,
@@ -54,12 +71,63 @@ img {
   max-width: 90vw;
 }
 
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   font-size: 1.2rem;
+}
+
+// Splitted columns
+
+.two-column-block {
+  display: flex;
+  gap: 20px;
+}
+
+.education-column,
+.interests-column {
+  flex: 1;
+  padding: 10px;
+}
+
+.education-list,
+.interests-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.education-list li::before,
+.interests-list li::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.education-list li::before {
+  content: "\f19d"; /* Unicode for the laureate hat */
+  font-family: "Font Awesome 5 Free"; /* Ensure you have Font Awesome included */
+  font-weight: 900; /* For solid icons */
+}
+
+.interests-list li::before {
+  content: "\f005"; /* Unicode for a star */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.education-list li {
+  position: relative;
+  padding-right: 100px; /* Adjust as needed to make space for the date */
+}
+
+.education-list .date {
+  position: absolute;
+  right: 0;
+  font-style: italic;
+  color: #696969; /* Optional color change */
 }
 
 // Math
@@ -109,10 +177,40 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// Download buttons
+.buttons {
+  .btn {
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background-color: var(--global-theme-color);
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    //min-width: 200px; /* Optional: Ensures buttons are at least 200px wide */
+    
+    /* Flexbox to align icon and text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn i {
+    margin-right: 8px; /* Space between the icon and the text */
+  }
+}
+
+
+
 // Profile
 
 .profile {
   width: 100%;
+  text-align: center; // Centering the content
 
   .address {
     margin-bottom: 5px;
@@ -636,6 +734,7 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          font-size: 12px;
 
           &:hover {
             color: var(--global-theme-color);
@@ -652,7 +751,7 @@ footer.sticky-bottom {
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
-
+          font-size: 12px;
           &:hover {
             text-decoration: underline;
           }
