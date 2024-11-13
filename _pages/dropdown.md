@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: CVs
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Academic
+      permalink: assets/pdf/CV_Academic_Lorenzo_Cavallo.pdf
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Resumé
+      permalink: assets/pdf/resume_Lorenzo_Cavallo.pdf
 ---
