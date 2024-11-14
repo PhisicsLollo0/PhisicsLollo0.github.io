@@ -80,6 +80,28 @@ blockquote {
   font-size: 1.2rem;
 }
 
+// Experiences
+.container-experience {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.experience {
+  //border: 1px solid #ccc; /* Optional */
+  padding: 10px;
+  text-align: center; /* Centers the title, subtitle, and dots */
+}
+.dots span {
+  font-size: 34px;
+  margin-right: 5px;
+}
+.filled {
+  color: var(--global-theme-color);
+}
+.unfilled {
+  color: lightgray;
+}
+
 // Splitted columns
 
 .two-column-block {
@@ -152,7 +174,9 @@ blockquote {
   background-color: var(--global-card-bg-color);
 
   img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
+//    width: 100%;
   }
 
   .card-title {

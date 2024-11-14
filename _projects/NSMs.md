@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Neutron Star Mergers
+description: What is the typical merging timescale? Can we trace it with Gamma-Ray Bursts?
+img: assets/img/NSM_image.jpeg
 importance: 2
-category: work
+category: astronomy
 ---
 
 Every project has a beautiful feature showcase page.

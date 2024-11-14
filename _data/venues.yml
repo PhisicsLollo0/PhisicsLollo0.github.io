@@ -1,6 +1,14 @@
 "AJ":
-  url: https://aapt.scitation.org/journal/ajp
+  url: https://iopscience.iop.org/journal/1538-3881
   color: "#00369f"
+
+"MNRAS":
+  url: https://academic.oup.com/mnras
+  color: "#8000ff"
+
+"A&A":
+  url: https://www.aanda.org/
+  color: "#0099ff"
 
 "PhysRev":
   url: https://journals.aps.org/

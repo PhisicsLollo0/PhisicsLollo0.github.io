@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: Chemical Evolution
+description: a project that redirects to another website
+img: assets/img/CE_image.png
+importance: 3
+category: astronomy
 ---
 
 Every project has a beautiful feature showcase page.
