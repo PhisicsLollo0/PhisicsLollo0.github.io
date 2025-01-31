@@ -33,7 +33,14 @@ toc:
     subsections:
     - name: Net worth
     - name: Net worth managing
-  - name: 1st pillar - Cash
+  - name: 1st pillar | Cash
+  - name: 2nd pillar | Emergency
+    subsections:
+    - name: The digression of risk-return trade-off
+    - name: How to build an emergency fund
+    - name: How/Where to invest it?
+  - name: 3rd pillar | Planned expenses
+  - name: 4th pillar | Long term goals
 
 
 # Below is an example of injecting additional post-specific styles.
@@ -68,9 +75,9 @@ Hi, I’m [Lorenzo](https://phisicslollo0.github.io/) from Italy 🇮🇹. Like 
 As you might expect, there are no “official” rules, as everyone’s needs, goals, financial situation, and mindset are unique.
 
 _The personal finance is based on a three rules scheme:_
-1. _Track and reduce your spending_
-2. _Improve your income_
-3. _Invest accordingly your objectives_
+1. _Track and reduce your spending_ 💸📉
+2. _Improve your income_ 💼📈
+3. _Invest accordingly your objectives_ 📊🎯
 
 
 ### Track and reduce your spending
@@ -117,7 +124,7 @@ To simplify the management of our net worth, we will explore a four-pillar frame
 
 ***
 
-## 1st pillar - Cash
+## 1st pillar (Cash)
 
 This is a crucial part of the framework that supports your financial well-being. Each pillar serves a distinct purpose and comes with its own set of guidelines to help you manage your finances effectively.
 
@@ -142,7 +149,7 @@ Now, what to do with the rest? That's the role of the 2nd, 3rd, and 4th pillar.
 
 ***
 
-## 2nd pillar - Emergency
+## 2nd pillar (Emergency)
 
 Let's say you're confident in the "limit" set for your first financial pillar and decide to invest everything beyond that—stop right there! What if an unexpected expense of €2,000 or more arises? This could deplete your first pillar entirely and erode your financial safety margin.
 
@@ -159,6 +166,84 @@ The **volatility** of an asset refers to the degree of variation in the price of
 **Risk** in the context of investments refers to the potential for losing some or all of the original investment or the uncertainty regarding the expected returns. It represents the possibility that an investment’s actual outcome may differ from the expected outcome, including not only financial loss but also underperformance relative to expectations.
 
 High **volatility** and **risk** are often linked, as investments with greater price fluctuations tend to be perceived as riskier. However, this direct correlation primarily holds for short-term periods, such as days, weeks, or perhaps a few years. When examining longer periods of time, the relationship between volatility and risk becomes more complex, requiring the inclusion of a third variable: the **timeframe** of the investment.
+
+To illustrate this, consider the following example:
+Suppose an investor is evaluating two assets: Asset A, known for its high daily volatility, and Asset B, which shows steady, low volatility. Over the course of a few weeks, Asset A’s price might swing wildly, presenting substantial risk to an investor focused on short-term gains. Conversely, Asset B’s stable price provides a safer choice for short-term investors.
+
+However, when the investment horizon extends to several years, the picture can change. Asset A, despite its daily fluctuations, may show an upward long-term trend, potentially yielding higher returns. Asset B, with its consistent performance, might not provide as much growth over the long term. Here, volatility's impact on perceived risk diminishes, as the investor's focus shifts from short-term fluctuations to long-term growth patterns.
+This relationship shows that volatility alone cannot fully define risk without considering the timeframe. Short-term investors may indeed face higher risk with volatile assets, but long-term investors might accept such volatility as part of a strategy for higher potential gains, effectively managing risk through diversification and time-based mitigation.
+
+A quantitative explame...
+
+Imagine purchasing 1 stock on October 20, 2024. Below is an example graph showing the percentage variation of the stock’s value over time.
+
+<div class="l-body-outset" style="overflow: hidden;">
+  <img src='/assets/img/ShortTerm.png' alt="Pillars" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+
+As shown, the stock value fluctuates between -3% and +2% within just one month—a relatively mild swing compared to extreme events like the COVID-19 market crash, where stocks lost around 20% in a single week. In this case, the short-term risk is high; if you bought the stock on October 20, 2024, and sold it on November 1, 2024, you would incur a loss due to the price drop within that brief period.
+
+However, consider a different scenario: you purchase the stock on January 1, 2018, and hold it until November 19, 2024.
+
+<div class="l-body-outset" style="overflow: hidden;">
+  <img src='/assets/img/LongTerm.png' alt="Pillars" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+
+The monthly oscillations are still present over the long term, but in this 7-year example, there is an overall growth of approximately 125%. This means that if you had invested €100 at the start, you could sell it for around €225 by November 19, 2024. It’s important to note that this is a simplified example to illustrate the concept; actual investment performance varies and depends on numerous factors.
+
+The key takeaway is that **volatility is not synonymous with risk**, especially when viewed over extended periods. While short-term fluctuations can be nerve-wracking for investors and indicate higher risk, holding investments for longer timeframes (generally 10 years or more) often mitigates this risk. Over such periods, market volatility tends to smooth out, and investors may benefit from the long-term growth trend of the stock market. (you may ask why should it grow? At the beginning of the 4th pillar section we will see why is not that far from reality)
+
+Other types of investments, such as bonds or savings accounts, have lower potential gains but also exhibit smaller volatility. These investments reach what can be considered the “risk-free” zone more quickly, providing steady, predictable returns suitable for risk-averse investors.
+
+This example underscores the importance of aligning investment strategies with one’s timeframe and risk tolerance. While stocks can be volatile in the short term, longer holding periods typically reduce the associated risk, making them a viable option for those with long-term financial goals.
+
+>**Deposit Funds (Emergency)**:
++ _Volatility:_ Lowest volatility. Moreover, they are typically insured by financial institutions.
++ _Return:_ Lowest returns, often a few points above the inflation rate.
++ _Suitability:_ Best for short-term savings or emergency funds.
+
+>**Bonds (3rd and 4th pillars)**:
++ _Volatility:_ Moderate; safer than stocks but can be affected by interest rate fluctuations.
++ _Return:_ Higher than deposit funds; provides predictable income through interest payments. Depends on the bond interest set by EU (for EU bonds ofc)
++ _Types:_ Includes government and high-grade corporate bonds, which are generally more stable.
+
+>**Stocks (4th pillar)**:
++ _Volatility:_ Highest volatility and economic influences.
++ _Return:_ Highest potential returns through dividends and capital appreciation.
++ _Suitability:_ Ideal for long-term investments and those with higher risk tolerance.
+
+### How to build an emergency fund
+
+To build your emergency fund, you first need to determine its size. This decision, like others in personal finance, depends heavily on your individual needs. While emergencies are, by definition, unexpected, many are still somewhat predictable. For instance, if you don’t own a car, or property, have children, pets, or any other significant responsibility that could incur a large, unexpected expense, you might not need a very large emergency fund.
+
+Let’s look at a practical example: suppose you work with your PC. If your PC were to break, it would directly impact your ability to earn an income. In this case, your emergency fund should include enough money to replace your PC. You might also want to account for potential damage to other essential devices, like your smartphone. Additionally, if you know you’ll be renting for the foreseeable future, your emergency fund could cover a deposit in case you need to move unexpectedly.
+
+For this scenario, an emergency fund of around 4-5k could suffice—enough to cover these specific needs without going overboard.
+
+It’s also important to note that you don’t always need to move money from your emergency fund immediately. If you have time to prepare (e.g., you’re planning to move homes in a few months), you can temporarily adjust your liquidity threshold (1st financial pillar) and then reallocate funds once you’ve settled into a new equilibrium.
+
+As you can see, mastering personal finance isn’t about rigidly following a rule (often created by someone else) but about developing the ability to adapt your strategy as your life evolves. Flexibility and foresight are key to navigating your financial journey effectively.
+
+### How/Where to invest it?
+
+Every time that you want to take a decision in personal finance it is important to fully address the aim of that move and therefore its needs. Let’s go through this workflow together:
+
+We decided that our emergency fund is ~10k euros. What are our needs? They should be instantly available, but since they are a good amount we do not want to keep them liquid (inflation will constantly eat them up). We want to defend them from inflation, so we can invest them in tools with expected values equal (or lucky superior) to inflation.
+
+Since specific tools and methods strongly depend on the period I will include specific indications of possible tools in a separate post, that I will update periodically.
+
+***
+
+## 3rd pillar (Planned expenses)
+
+***
+
+## 4th pillar (Long term goals)
+
+
+
+
+
 
 
 

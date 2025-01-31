@@ -17,7 +17,7 @@ category: astronomy
             float: left; /* Positions the image and caption to the left */
             margin-right: 15px; /* Adds space between the image and text */
             margin-bottom: 10px; /* Adds space below the image and caption */
-            width: 600px; /* Example width for the image */
+            width: 500px; /* Example width for the image */
             text-align: center; /* Centers the caption text */
         }
         .wrapped-image img {
