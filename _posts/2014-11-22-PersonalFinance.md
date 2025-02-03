@@ -236,14 +236,36 @@ Since specific tools and methods strongly depend on the period I will include sp
 
 ## 3rd pillar (Planned expenses)
 
+The third pillar of your financial plan is designed to cover foreseeable expenses that will arise in the short- to mid-term, typically within the next five years. These are not emergencies, nor are they part of your day-to-day spending, but rather planned financial commitments—such as a car purchase, home renovations, or an upcoming wedding. Since you already know these expenses will happen, the goal is to preserve your capital with a small return.
+
+To achieve this, the best approach is to invest in fixed-income instruments, such as government bonds. These assets provide stability, as they are less volatile than stocks and offer "almost" guaranteed capital if held to maturity. Unlike cash, which loses value due to inflation, fixed-income investments help maintain your purchasing power while keeping your money relatively accessible when needed.
+
+Let’s take an example: Suppose you plan to buy a car in three years and estimate the cost to be €20,000. Instead of keeping this amount in a low-interest savings account, you could invest in a government bond with a three-year maturity that offers a 3% annual return. By the end of the term, your investment would grow to approximately €21,800—covering both the expected cost and a small buffer for inflation.
+
+By structuring your previsional expenses in this way, you ensure that your money is protected against inflation rather than sitting idle or losing value over time.
+
 ***
 
 ## 4th pillar (Long term goals)
 
+The fourth pillar is dedicated to long-term investments. However, before even considering this pillar, you must first secure the previous three—ensuring you have cash for daily needs, an emergency fund, and provisions for foreseeable expenses. Only once these foundations are in place is resonable to allocate funds toward long-term growth. If we’ve designed the first three pillars well, the money allocated here is simply excess capital—funds you simply do not need. 
 
+Okkkkkk, but now you might ask… what are stocks? In simple terms, a stock represents ownership in a company. When you buy a stock, you are purchasing a small fraction of that business, making you a shareholder. If the company grows and becomes more valuable, so does your share. Stocks generate returns in two ways: price appreciation (the stock’s value increases over time) and dividends (some companies distribute a portion of their profits to shareholders). 
 
+As we already said, this pillar is designed for financial goals that are at least 10 years away—but ideally even longer. Unlike short- to mid-term investments, where capital preservation is key, here the focus shifts toward growth. The perfect asset to fullfill this objective are stocks since, in such long investment windows, they tend to outperform other asset classes, making them the best tool for building wealth for you retirment. Investing in stocks comes with volatility, but time is your greatest ally. Historical data shows that despite short-term fluctuations, markets tend to rise over decades. This means that as long as you don’t need to withdraw funds prematurely, you can ride out downturns and benefit from long-term appreciation. I will provide you a proof of this in a future post... stay tuned!
 
+> **Big Disclaimer: Stock Market Volatility is Real!** 
+> Before diving into stocks, it’s crucial to understand just how volatile they can be. Unlike cash or bonds, stock prices fluctuate constantly, sometimes experiencing extreme downturns. A well-diversified portfolio may still face drawdowns of 30%, 40%, or even 60% during severe market crashes. These drops are not theoretical—they have happened multiple times throughout history and will happen again.
 
+>This is why investing in stocks requires the right mindset. If you panic and sell during a downturn, you lock in your losses. Instead, you must be mentally prepared to stay invested and stick to your strategy even when the market is deep in the red. Volatility is not risk—risk is selling at the worst possible time. Time is your greatest asset, and the longer you stay in the market, the more likely you are to see strong positive returns.
+
+>If the idea of seeing your portfolio temporarily lose half its value makes you uneasy, that’s a sign that you may need to adjust your asset allocation or revisit your financial plan. Successful investing is not just about picking good stocks—it’s about having the emotional resilience to hold on when things look bad. Patience and discipline are what separate successful investors from those who panic and lose money. In the next post I will try to prove you that stock market is not that risky as you may think, even if is good to recall that is practicaly impossible to perfermor a risk-free investment (but you can get close to it).
+
+<div class="l-body-outset" style="overflow: hidden;">
+  <img src='/assets/img/crashes.jpeg' alt="Crashes" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+
+See this article on [statista.com](https://www.statista.com/chart/21165/performance-of-the-s-p-500-index-since-2000/) which highlight the three recent big drwdown of the stock market. 
 
 
 
